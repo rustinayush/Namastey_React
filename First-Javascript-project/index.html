@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const heading = document.createElement("h2");
+      heading.innerHTML = "hello from javascript";
+
+      const root = document.getElementById("root");
+      root.appendChild(heading);
+    </script>
+  </body>
+</html>
+
+<!-- // How Browser knows what is createElement , getElementById and appendChild
+
+answer-- Due to javascript Engine , it is very powerful it knows how js terminologies... /
+because they are part of the DOM (Document Object Model) API, which is built into all modern web browsers. 
+
+These function are implemented in javascript by the browser, and every modern browser comes with built-in 
+javascript Engine that can execute javascipt code and interact with the DOM.
